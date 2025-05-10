@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio kybernetického vývojáře a bezpečnostního experta">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animation-styles.css">
+    <link rel="stylesheet" href="darkmode.css">
+    <link rel="stylesheet" href="modal-style.css">
+
+    <title>PORTFOLIO | Kybernetická Sigma</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projekty</a></li>
+                <li><a href="#skills" class="nav-link">Schopnosti</a></li>
+                <li><a href="#about" class="nav-link">O mně</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                <li><button class="nav-link" id="theme-toggle" aria-label="Přepnout režim">☀️</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1 class="animate fade-in">Kybernetický<br>Vývojář &<br>Bezpečnostní Expert</h1>
+        <p class="animate fade-in slide-up delay-200">Specializuji se na kybernetickou bezpečnost, CTF výzvy a vývoj exploitů, přičemž se zaměřuji na reálné hackerské simulace.</p>
+        <a href="#contact" class="btn animate fade-in slide-up delay-400">Spojme se</a>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title animate slide-left">Featured Projects</h2>
+        <div class="project-grid stagger-container">
+            <div class="project-card stagger-item animate fade-in slide-up">
+                <div class="project-img"><img src="assets/ai-akce.png" alt="AI událost" loading="lazy"></div>
+                <div class="project-content">
+                    <h3 class="project-title">AI Event @ Smíchovská</h3>
+                    <p class="project-desc">
+                        Odpolední akce zaměřená na odborné přednášky a networking týkající se AI. Úvodní slovo pronese ředitel školy, ing. Radko Sáblík. Následovat bude debata se zajímavými hosty z praxe.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Networking</span>
+                        <span class="tag">Přednášky</span>
+                    </div>
+                    <a href="#" class="btn" data-modal="ai">Zobrazit Projekt</a>
+                </div>
+            </div>
+
+            <div class="project-card stagger-item animate fade-in slide-up">
+            <div class="project-img">
+                <img src="assets/scamos.png" alt="Ambasador Šašků" loading="lazy">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Ambasador Šašků</h3>
+                <p class="project-desc">
+                Zkušenost s firmou Hitchat, která slibovala inovativní formu vzdělávání, ale neplnila své finanční závazky vůči spolupracovníkům.
+                </p>
+                <div class="project-tags">
+                <span class="tag">Hitchat</span>
+                <span class="tag">Zkušenosti</span>
+                <span class="tag">Varování</span>
+                </div>
+                <a href="#" class="btn" data-modal="ambasador-sasku">Zobrazit Projekt</a>
+            </div>
+            </div>
+
+
+            <div class="project-card stagger-item animate fade-in slide-up">
+            <div class="project-img">
+                <img src="assets/hackathon-kb.jpg" alt="AI Digital Data Hackathon" loading="lazy">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">AI Digital Data Hackathon 2024</h3>
+                <p class="project-desc">
+                Třídenní hackathon zaměřený na využití AI a dat k vylepšení zákaznické zkušenosti v bankovnictví. Účastnili jsme se jako tým Smíchovské SPŠ a gymnázia.
+                </p>
+                <div class="project-tags">
+                <span class="tag">AI</span>
+                <span class="tag">Hackathon</span>
+                <span class="tag">Komerční banka</span>
+                </div>
+                <a href="#" class="btn" data-modal="kb-hackathon">Zobrazit Projekt</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="skills" class="skills">
+  <h2 class="section-title animate slide-left">Mé dovednosti</h2>
+  <div class="skill-grid stagger-container">
+    <div class="skill-card stagger-item animate fade-in scale-up">
+      <div class="skill-icon">🖥️</div>
+      <h3>Kybernetická bezpečnost</h3>
+      <p></p>
+    </div>
+
+    <div class="skill-card stagger-item animate fade-in scale-up">
+      <div class="skill-icon">👨‍💻</div>
+      <h3>Vývoj exploitů</h3>
+      <p></p>
+    </div>
+
+    <div class="skill-card stagger-item animate fade-in scale-up">
+      <div class="skill-icon">❤</div>
+      <h3>Přednášky a Workshopy</h3>
+      <p></p>
+    </div>
+
+    <div class="skill-card stagger-item animate fade-in scale-up">
+      <div class="skill-icon">🤝</div>
+      <h3>Filantropické akce</h3>
+      <p></p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-content">
+    <h2 class="section-title animate slide-left">O mně</h2>
+    <p class="animate fade-in slide-left delay-200">Jsem vášnivý kybernetický vývojář a bezpečnostní expert se specializací na CTF výzvy, vývoj exploitů a reálné simulace hackerských útoků. Mám zkušenosti s analýzou a zabezpečením systémů, a stále se zdokonaluji ve všech aspektech kybernetické bezpečnosti.</p>
+    <p class="animate fade-in slide-left delay-300">Když právě nepracují na bezpečnosti nebo hackování, rád se zapojuji do filantropických projektů a pomáhám těm, kteří to potřebují, jako třeba podpora Olivera Cingla nebo asistence osobám s omezenou svéprávností.</p>
+    <a href="#" class="btn animate fade-in slide-left delay-400">Stáhnout životopis</a>
+  </div>
+  <div class="about-img animate fade-in scale-up"><img src="assets/mugshot.jpg" alt="Profilový obrázek" loading="lazy"></div>
+</section>
+
+<section id="contact" class="contact">
+      <h2 class="section-title animate slide-left">Kontaktujte mě</h2>
+      <div class="contact-form">
+          <div class="form-group">
+              <input type="text" placeholder="Vaše Jméno" class="form-control animate fade-in slide-up">
+          </div>
+          <div class="form-group">
+              <input type="email" placeholder="Váš Email" class="form-control animate fade-in slide-up delay-100">
+          </div>
+          <div class="form-group">
+              <textarea placeholder="Vaše Zpráva" class="form-control animate fade-in slide-up delay-200" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn animate fade-in slide-up delay-300">Poslat zprávu</button>
+      </div>
+    </section>
+
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Koninec" class="social-link" aria-label="GitHub"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/zid_mera/" class="social-link" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/david-%C5%BEdimera/" class="social-link" aria-label="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+        <p>© 2025 Sigmicka</p>
+    </footer>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="scroll-animations.js"></script>
+  <script src="scrollspy.js"></script>
+  <script src="theme-toggle.js"></script>
+  <script>
+    const modal = document.getElementById('modal');
+    const modalBody = document.getElementById('modal-body');
+    const closeBtn = modal.querySelector('.close-btn');
+
+    const modalContent = `
+    <img src="assets/ai-akce.png" alt="Projektový obrázek" class="modal-image" loading="lazy" />
+    <p class="modal-description">
+        Odpolední akce zaměřená na odborné přednášky a networking týkající se AI. Úvodní slovo pronese ředitel školy, ing. Radko Sáblík. Následovat bude debata se zajímavými hosty.
+    </p>
+    <ul class="modal-stats">
+        <li>🎤 Moderátor: Alex Naxera</li>
+        <li>📅 14:00 – Zahájení s Radkem Sáblíkem</li>
+        <li>🧠 14:40 – Tomáš Mirošník (Microsoft): Vize a odpovědnost v AI</li>
+        <li>📻 15:30 – Jiří Špaček (Seznam.cz): AI rádio Expres FM</li>
+        <li>🔐 16:20 – Panel: AI a bezpečnost (Mirošník, Mára, Foltýn)</li>
+    </ul>
+    <div class="project-tags">
+        <span class="tag">Technologie</span>
+        <span class="tag">Debata</span>
+        <span class="tag">Vzdělávání</span>
+    </div>
+    <div class="modal-easter-egg"><em>"AI mění svět..."</em> 🤖</div>
+    `;
+    const modalContentKB = `
+    <img src="assets/hackathon-kb.jpg" alt="AI Digital Data Hackathon" class="modal-image" loading="lazy" />
+    <p class="modal-description">
+        Ve dnech 6.–8. listopadu 2024 jsme se zúčastnili AI Digital Data Hackathonu pořádaného Komerční bankou. Cílem bylo využít umělou inteligenci a data k vylepšení zákaznické zkušenosti v bankovnictví.
+    </p>
+    <ul class="modal-stats">
+        <li>📍 Místo konání: Komerční banka, Václavské náměstí, Praha</li>
+        <li>🗓️ Datum: 6.–8. listopadu 2024</li>
+        <li>🏆 Výsledek: 3. místo pro tým Smíchovské SPŠ a gymnázia</li>
+    </ul>
+    <div class="project-tags">
+        <span class="tag">AI</span>
+        <span class="tag">Hackathon</span>
+        <span class="tag">Komerční banka</span>
+        <span class="tag">Smíchovská SPŠ a gymnázium</span>
+    </div>
+    <div class="modal-easter-egg"><em>"Skvělá zkušenost a inspirace pro budoucnost!"</em> 🚀</div>
+    `;
+const modalContentAmbasador = `
+  <img src="assets/scamos.png" alt="Ambasador Šašků" class="modal-image" loading="lazy"/>
+  <p class="modal-description">
+    V rámci spolupráce s firmou HitChat, která se zaměřuje na vývoj aplikace s AI avatary slavných osobností, jsem vedl workshopy pro školy a učitele. Cílem bylo představit možnosti využití této technologie ve vzdělávání. Bohužel, přes veškeré úsilí a čas investovaný do těchto aktivit, firma (málem) nesplnila své finanční závazky vůči spolupracovníkům, což vedlo k negativní zkušenosti.
+  </p>
+  <ul class="modal-stats">
+    <li>📅 Spuštění projektu: srpen 2024</li>
+    <li>💼 Role: Ambasador</li>
+    <li>💸 Problém: Nevyplacení slíbené odměny</li>
+  </ul>
+  <div class="project-tags">
+    <span class="tag">HitChat</span>
+    <span class="tag">Zkušenosti</span>
+    <span class="tag">Varování</span>
+  </div>
+  <div class="modal-easter-egg"><em>"Zkušenost, která poučila."</em> ⚠️</div>
+`;
+
+
+
+
+
+    document.querySelectorAll('[data-modal="ai"]').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        modalBody.innerHTML = modalContent;
+        modal.style.display = 'flex';
+      });
+    });
+
+    document.querySelectorAll('[data-modal="kb-hackathon"]').forEach(btn => {
+    btn.addEventListener('click', e => {
+        e.preventDefault();
+        modalBody.innerHTML = modalContentKB;
+        modal.style.display = 'flex';
+    });
+    });
+
+    document.querySelectorAll('[data-modal="ambasador-sasku"]').forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.preventDefault();
+    modalBody.innerHTML = modalContentAmbasador;
+    modal.style.display = 'flex';
+  });
+});
+
+
+    
+
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', e => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

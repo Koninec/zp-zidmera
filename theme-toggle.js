@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("theme-toggle"),e=()=>{t.textContent=document.body.classList.contains("light-mode")?"🌙":"☀️"};t.addEventListener("click",()=>{document.body.classList.toggle("light-mode"),e()}),e()});
+// # https://skalman.github.io/UglifyJS-online/

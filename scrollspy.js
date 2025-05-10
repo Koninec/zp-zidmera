@@ -1,0 +1,2 @@
+window.addEventListener("scroll",()=>{var e=document.querySelectorAll("section"),t=document.querySelectorAll(".nav-link");let l="";e.forEach(e=>{var t=e.offsetTop-100;scrollY>=t&&(l=e.getAttribute("id"))}),t.forEach(e=>{e.classList.remove("active"),e.getAttribute("href").includes(l)&&e.classList.add("active")})});
+//# https://skalman.github.io/UglifyJS-online/
